@@ -7,5 +7,5 @@ JavaScript30 second project. JavaScript30 is a free online course made by Wes Bo
 - CSS
 - JavaScript
 
-##### Link:
+##### Link: https://jandoso.github.io/jsclock/
 
