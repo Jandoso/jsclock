@@ -1,0 +1,43 @@
+html{
+    background-image: url(../assets/fundo.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+body{
+    display: flex;
+    flex:1;
+    min-height: 100vh;
+    align-items: center;
+    }
+
+.clock{
+    width: 14rem;
+    height: 14rem;
+    border: 10px solid #145262;
+    border-radius: 50%;
+    margin: 50px auto;
+    position:relative;
+    padding:2em;
+}
+
+.clock-body{
+    position:relative;
+    width:100%;
+    height:100%;
+    transform:translate(-3px);
+}
+.hand{
+    background:#E1AA46;
+    width:39%;
+    height:5px;
+    position:absolute;
+    top:50%;
+    transform-origin: 100%;
+    transform:rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.51, 1.26, 0.06, 1.95);
+}
+
+  
+  
